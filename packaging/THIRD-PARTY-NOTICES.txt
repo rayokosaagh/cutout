@@ -1,0 +1,37 @@
+Cutout includes or downloads the following third-party software and models.
+Each remains under its own licence; the full licence texts are published by
+their authors at the addresses given.
+
+Background-removal models (downloaded on demand, not bundled)
+--------------------------------------------------------------
+- U2-Net ("Classic", "People")      Apache License 2.0   https://github.com/xuebinqin/U-2-Net
+- IS-Net / DIS ("General")          Apache License 2.0   https://github.com/xuebinqin/DIS
+- IS-Net anime ("Illustration")     Apache License 2.0   https://github.com/SkyTNT/anime-segmentation
+- BiRefNet ("Highest quality")      MIT License          https://github.com/ZhengPeng7/BiRefNet
+Models are fetched from the rembg project's releases:
+https://github.com/danielgatis/rembg/releases
+
+Libraries
+---------
+- rembg                MIT License                   https://github.com/danielgatis/rembg
+- ONNX Runtime         MIT License                   https://github.com/microsoft/onnxruntime
+- Qt for Python (PySide6) and Qt
+                       GNU LGPL v3                   https://www.qt.io/qt-for-python
+  Qt is used as unmodified, dynamically linked libraries (the Qt*.dll and
+  PySide6 files in this folder), which may be replaced with compatible builds.
+  Source: https://code.qt.io
+- Pillow               MIT-CMU (HPND) License        https://python-pillow.org
+- pillow-heif          BSD 3-Clause License          https://github.com/bigcat88/pillow_heif
+  (libheif, used as an unmodified dynamic library: GNU LGPL v3, https://github.com/strukturag/libheif)
+- NumPy                BSD 3-Clause License          https://numpy.org
+- SciPy                BSD 3-Clause License          https://scipy.org
+- scikit-image         BSD 3-Clause License          https://scikit-image.org
+- PyMatting            MIT License                   https://github.com/pymatting/pymatting
+- Numba / llvmlite     BSD 2-Clause License          https://numba.pydata.org
+- pooch                BSD 3-Clause License          https://github.com/fatiando/pooch
+- Send2Trash           BSD 3-Clause License          https://github.com/arsenetar/send2trash
+- Python               PSF License                   https://www.python.org
+
+Fonts
+-----
+- Inter                SIL Open Font License 1.1     https://rsms.me/inter
